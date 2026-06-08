@@ -23,8 +23,8 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6 text-purple-400" />,
       label: "Email",
-      value: "danial@example.com",
-      link: "mailto:danial@example.com"
+      value: "muhammaddanialkhan298@gmail.com",
+      link: "mailto:muhammaddanialkhan298@gmail.com"
     },
     {
       icon: <MapPin className="w-6 h-6 text-blue-400" />,
@@ -35,8 +35,8 @@ export default function Contact() {
     {
       icon: <Phone className="w-6 h-6 text-cyan-400" />,
       label: "Phone",
-      value: "+92 XXX XXXXXXX",
-      link: "tel:+92XXXXXXXXX"
+      value: "+92 305 5508284",
+      link: "tel:+923055508284"
     }
   ];
 
@@ -113,7 +113,7 @@ export default function Contact() {
                 </p>
                 <div className="flex gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/danialkhan8284"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 py-3 rounded-full glass-card hover:bg-purple-500/20 transition-all duration-300 text-center neon-glow-hover"
@@ -121,7 +121,7 @@ export default function Contact() {
                     GitHub
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/muhammad-danial-khan-b54a76387/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 py-3 rounded-full glass-card hover:bg-blue-500/20 transition-all duration-300 text-center neon-glow-hover"
