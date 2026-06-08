@@ -47,7 +47,7 @@ export default function Navigation() {
       >
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between">
-            <motion.div
+            {/* <motion.div
               whileHover={{ scale: 1.05 }}
               className="flex items-center gap-2 cursor-pointer"
               onClick={() => scrollToSection("#")}
@@ -56,7 +56,7 @@ export default function Navigation() {
                 <Code2 className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl gradient-text">MDK</span>
-            </motion.div>
+            </motion.div> */}
 
             <div className="hidden md:flex items-center gap-1">
               {navItems.map((item, index) => (
