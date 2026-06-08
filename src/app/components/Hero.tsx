@@ -38,7 +38,7 @@ export default function Hero() {
               className="mb-4"
             >
               {/* <span className="block text-xl md:text-2xl text-gray-400 mb-2">Hello, I'm</span> */}
-              <span className="block text-5xl md:text-7xl gradient-text mb-2">
+              <span className="block text-4xl md:text-6xl gradient-text mb-2">
                 Muhammad Danial Khan
               </span>
             </motion.h1>
@@ -49,7 +49,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="mb-6"
             >
-              <h2 className="text-2xl md:text-3xl text-white/90 mb-2">
+              <h2 className="text-1xl md:text-2xl text-white/90 mb-2">
                 Backend Developer | MERN Stack Developer
               </h2>
               <h3 className="text-xl md:text-2xl text-purple-400">
