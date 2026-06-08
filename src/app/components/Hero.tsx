@@ -81,13 +81,15 @@ export default function Hero() {
                 View Projects
               </Button>
 
-              <Button
-                variant="outline"
-                className="border-2 border-purple-500/50 text-white hover:bg-purple-500/20 px-8 py-6 rounded-full backdrop-blur-sm transition-all duration-300"
-              >
-                <Download className="mr-2 h-5 w-5" />
-                Download CV
-              </Button>
+         <a href="/Danial_CV.pdf" download>
+  <Button
+    variant="outline"
+    className="border-2 border-purple-500/50 text-white hover:bg-purple-500/20 px-8 py-6 rounded-full backdrop-blur-sm transition-all duration-300"
+  >
+    <Download className="mr-2 h-5 w-5" />
+    Download CV
+  </Button>
+</a>
 
               <Button
                 variant="outline"

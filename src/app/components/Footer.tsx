@@ -5,9 +5,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, href: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin className="w-5 h-5" />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Mail className="w-5 h-5" />, href: "mailto:danial@example.com", label: "Email" }
+    { icon: <Github className="w-5 h-5" />, href: "https://github.com/danialkhan8284", label: "GitHub" },
+    { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/muhammad-danial-khan-b54a76387/", label: "LinkedIn" },
+    { icon: <Mail className="w-5 h-5" />, href: "mailto:muhammaddanialkhan298@gmail.com", label: "Email" }
   ];
 
   const quickLinks = [
@@ -126,9 +126,9 @@ export default function Footer() {
             <p className="text-gray-400 text-sm text-center md:text-left">
               © {currentYear} Muhammad Danial Khan. All rights reserved.
             </p>
-            <p className="text-gray-400 text-sm flex items-center gap-2">
+            {/* <p className="text-gray-400 text-sm flex items-center gap-2">
               Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React & Tailwind CSS
-            </p>
+            </p> */}
           </div>
         </motion.div>
       </div>

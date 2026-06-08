@@ -9,11 +9,11 @@ export default function About() {
       title: "Full Stack Development",
       description: "Expert in MERN stack with focus on scalable backend architecture and RESTful APIs"
     },
-    {
-      icon: <Database className="w-8 h-8 text-blue-400" />,
-      title: "Database Design",
-      description: "Proficient in MongoDB, MySQL, and Firebase for robust data management solutions"
-    },
+    // {
+    //   icon: <Database className="w-8 h-8 text-blue-400" />,
+    //   title: "Database Design",
+    //   description: "Proficient in MongoDB, MySQL, and Firebase for robust data management solutions"
+    // },
     {
       icon: <Shield className="w-8 h-8 text-cyan-400" />,
       title: "Cybersecurity",

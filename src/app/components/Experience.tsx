@@ -8,7 +8,7 @@ export default function Experience() {
     {
       type: "work",
       title: "Backend Developer",
-      company: "Tech Solutions Inc.",
+      company: "Chai and Code on Youtube",
       period: "2024 - Present",
       description: "Developing scalable backend systems using Node.js, Express, and MongoDB. Architecting RESTful APIs and implementing microservices.",
       technologies: ["Node.js", "Express", "MongoDB", "Docker", "AWS"]
@@ -16,7 +16,7 @@ export default function Experience() {
     {
       type: "work",
       title: "MERN Stack Developer",
-      company: "Digital Innovations Ltd.",
+      company: "independent Web Developer",
       period: "2023 - 2024",
       description: "Built full-stack web applications using MERN stack. Designed and implemented database schemas and API integrations.",
       technologies: ["React", "Node.js", "MongoDB", "Express", "REST APIs"]
@@ -24,15 +24,15 @@ export default function Experience() {
     {
       type: "work",
       title: "WordPress Developer",
-      company: "Creative Web Agency",
+      company: "Gellf Academy",
       period: "2022 - 2023",
       description: "Developed custom WordPress themes and plugins. Optimized website performance and implemented security best practices.",
       technologies: ["WordPress", "PHP", "MySQL", "JavaScript", "CSS"]
     },
     {
-      type: "project",
+      type: "work",
       title: "Cybersecurity Projects",
-      company: "Independent Research",
+      company: "Tech Toch Solutions Inc.",
       period: "2023 - Present",
       description: "Conducting research in network security, developing security tools, and participating in CTF competitions.",
       technologies: ["Python", "Network Security", "Penetration Testing", "Security Analysis"]
@@ -42,7 +42,7 @@ export default function Experience() {
   const certifications = [
     {
       title: "Cybersecurity Fundamentals",
-      issuer: "CompTIA",
+      issuer: "Coursera",
       year: "2024"
     },
     {
@@ -58,7 +58,7 @@ export default function Experience() {
     {
       title: "Network Security",
       issuer: "Cisco",
-      year: "2024"
+      year: "2025"
     }
   ];
 

@@ -7,25 +7,25 @@ export default function GitHubStats() {
     {
       icon: <Code className="w-8 h-8 text-purple-400" />,
       label: "Repositories",
-      value: "50+",
+      value: "20+",
       description: "Public & Private"
     },
     {
       icon: <GitBranch className="w-8 h-8 text-blue-400" />,
       label: "Commits",
-      value: "2,500+",
+      value: "1,500+",
       description: "This Year"
     },
     {
       icon: <Star className="w-8 h-8 text-cyan-400" />,
       label: "Stars Earned",
-      value: "150+",
+      value: "50+",
       description: "Across Projects"
     },
     {
       icon: <GitPullRequest className="w-8 h-8 text-purple-400" />,
       label: "Pull Requests",
-      value: "300+",
+      value: "100+",
       description: "Merged"
     }
   ];
@@ -118,7 +118,7 @@ export default function GitHubStats() {
 
             <div className="mt-8 text-center">
               <a
-                href="https://github.com"
+                href="https://github.com/danialkhan8284"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white transition-all duration-300 neon-glow-hover"

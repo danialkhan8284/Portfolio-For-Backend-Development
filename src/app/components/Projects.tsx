@@ -33,24 +33,24 @@ export default function Projects() {
       demo: "#",
       gradient: "from-cyan-600/20 to-purple-600/20"
     },
-    {
-      title: "Weather Forecasting App",
-      description: "Real-time weather forecasting application with beautiful UI. Features 7-day forecasts, weather alerts, and location-based recommendations.",
-      icon: <CloudRain className="w-12 h-12 text-blue-400" />,
-      technologies: ["React", "Express.js", "REST API", "OpenWeather API"],
-      github: "#",
-      demo: "#",
-      gradient: "from-blue-600/20 to-purple-600/20"
-    },
-    {
-      title: "Electricity Theft Detection System",
-      description: "ML-powered system for detecting electricity theft patterns. Analyzes consumption data and identifies anomalies using machine learning algorithms.",
-      icon: <Zap className="w-12 h-12 text-purple-400" />,
-      technologies: ["Python", "Machine Learning", "Data Analysis", "Flask"],
-      github: "#",
-      demo: "#",
-      gradient: "from-purple-600/20 to-cyan-600/20"
-    }
+    // {
+    //   title: "Weather Forecasting App",
+    //   description: "Real-time weather forecasting application with beautiful UI. Features 7-day forecasts, weather alerts, and location-based recommendations.",
+    //   icon: <CloudRain className="w-12 h-12 text-blue-400" />,
+    //   technologies: ["React", "Express.js", "REST API", "OpenWeather API"],
+    //   github: "#",
+    //   demo: "#",
+    //   gradient: "from-blue-600/20 to-purple-600/20"
+    // },
+    // {
+    //   title: "Electricity Theft Detection System",
+    //   description: "ML-powered system for detecting electricity theft patterns. Analyzes consumption data and identifies anomalies using machine learning algorithms.",
+    //   icon: <Zap className="w-12 h-12 text-purple-400" />,
+    //   technologies: ["Python", "Machine Learning", "Data Analysis", "Flask"],
+    //   github: "#",
+    //   demo: "#",
+    //   gradient: "from-purple-600/20 to-cyan-600/20"
+    // }
   ];
 
   return (
