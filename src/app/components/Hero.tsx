@@ -37,7 +37,7 @@ export default function Hero() {
               transition={{ delay: 0.3 }}
               className="mb-4"
             >
-              <span className="block text-xl md:text-2xl text-gray-400 mb-2">Hello, I'm</span>
+              {/* <span className="block text-xl md:text-2xl text-gray-400 mb-2">Hello, I'm</span> */}
               <span className="block text-5xl md:text-7xl gradient-text mb-2">
                 Muhammad Danial Khan
               </span>
@@ -84,7 +84,7 @@ export default function Hero() {
          <a href="/Danial_CV.pdf" download>
   <Button
     variant="outline"
-    className="border-2 border-purple-500/50 text-white hover:bg-purple-500/20 px-8 py-6 rounded-full backdrop-blur-sm transition-all duration-300"
+    className="border-2 border-purple-500/50 text-white px-8 py-6 rounded-full backdrop-blur-sm transition-all duration-300 hover:bg-purple-500 hover:border-purple-400 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/40"
   >
     <Download className="mr-2 h-5 w-5" />
     Download CV
