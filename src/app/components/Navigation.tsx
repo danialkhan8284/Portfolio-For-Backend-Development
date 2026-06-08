@@ -58,7 +58,7 @@ export default function Navigation() {
               <span className="text-xl gradient-text">MDK</span>
             </motion.div> */}
 
-            <div className="hidden md:flex items-center gap-1">
+            {/* <div className="hidden md:flex items-center gap-1">
               {navItems.map((item, index) => (
                 <motion.button
                   key={index}
@@ -70,7 +70,7 @@ export default function Navigation() {
                   {item.name}
                 </motion.button>
               ))}
-            </div>
+            </div> */}
 
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
